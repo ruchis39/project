@@ -1,0 +1,110 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sample",
+    "line": 2,
+    "id": "sample",
+    "tags": [],
+    "uri": "Features\\09-DCRRTM_M1A Messages.feature",
+    "elements": [
+      {
+        "id": "sample;verify-the-page-title",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify the Page title",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user Open the facebook page",
+            "match": {
+              "location": "Step_Definitions\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters \"<email address>\" email address",
+            "match": {
+              "location": "Step_Definitions\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            },
+            "embeddings": [
+              {
+                "data": "username exists on facebook",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "enters \"fortunately\" password",
+            "match": {
+              "location": "Step_Definitions\\steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            },
+            "embeddings": [
+              {
+                "data": "user entered new password on facebook",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click on Login",
+            "match": {
+              "location": "Step_Definitions\\steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should log in successfully",
+            "match": {
+              "location": "Step_Definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\@serenity-js\\cucumber\\src\\listeners\\legacy\\cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

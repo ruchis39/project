@@ -1,0 +1,22 @@
+{
+  "name": "protractortypescriptcucumber",
+  "version": "1.0.0",
+  "description": "protractortypescriptcucumberframework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config/configuration.js"
+  },
+  "author": "Ruchi Singla",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "6.0.7",
+    "cucumber-html-reporter": "5.5.0",
+    "jasmine": "~4.4.0",
+    "mocha": "10.2.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "9.0.0",
+    "safer-buffer": "^2.1.2",
+    "type":"module"
+
+  }
+}
