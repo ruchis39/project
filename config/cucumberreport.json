@@ -10,48 +10,57 @@
       {
         "id": "sample;verify-the-page-title",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 20,
         "name": "Verify the Page title",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@TC001",
+            "line": 4
+          },
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 8,
             "name": "user Open the facebook page",
             "match": {
               "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1443000000
+              "duration": 1293000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 10,
             "name": "user enters \"<email address>\" email address",
             "match": {
               "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
+            "line": 12,
             "name": "user enters \"fortunately\" password",
             "match": {
               "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:77"
             },
             "result": {
               "status": "passed",
-              "duration": 413000000
+              "duration": 232000000
             },
             "embeddings": [
               {
@@ -63,27 +72,27 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
+            "line": 14,
             "name": "click on Login",
             "match": {
               "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:104"
             },
             "result": {
               "status": "passed",
-              "duration": 199000000
+              "duration": 107000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 16,
             "name": "user should log in successfully",
             "match": {
               "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:194"
             },
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 8000000
             }
           },
           {
@@ -94,7 +103,108 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sample;verify-the-page-title",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Verify the Page title",
+        "tags": [
+          {
+            "name": "@TC002",
+            "line": 24
+          },
+          {
+            "name": "@Regression",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "user Open the facebook page",
+            "match": {
+              "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user enters \"<email address>\" email address",
+            "match": {
+              "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "user enters \"fort\" password",
+            "match": {
+              "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            },
+            "embeddings": [
+              {
+                "data": "user entered email address",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "click on Login",
+            "match": {
+              "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user should log in successfully",
+            "match": {
+              "location": "..\\Step_Definitions\\DCR\\DCR_steps.js:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\@serenity-js\\cucumber\\src\\listeners\\legacy\\cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000000
             }
           }
         ]

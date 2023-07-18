@@ -19,7 +19,8 @@ exports.config = {
     cucumberOpts: {
 
         require: ["../Step_Definitions/DCR/DCR_steps.js"],
-        format: 'json:cucumberreport.json'
+        format: 'json:cucumberreport.json',
+        tags: '@Regression'
         
 
     },
