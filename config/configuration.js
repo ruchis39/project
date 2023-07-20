@@ -19,10 +19,8 @@ exports.config = {
     cucumberOpts: {
 
         require: ["../Step_Definitions/DCR/DCR_steps.js"],
-        format: 'json:cucumberreport.json',
+        format: 'json:../cucumberreport.json',
         tags: '@Regression'
-        
-
     },
 
         onComplete: () => {
@@ -32,8 +30,8 @@ exports.config = {
             var options = {
                 
                 theme: 'bootstrap',
-                jsonFile: './cucumberreport.json',
-                output: 'Testing/Output/cucumber_report.html',
+                jsonFile: 'cucumberreport.json',
+                output: 'Testing/Output/Reports/cucumber_report.html',
                 reportSuiteAsScenarios: true,
                 scenarioTimestamp: true,
                 launchReport: true,
