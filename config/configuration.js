@@ -25,7 +25,7 @@ exports.config = {
 
         onComplete: () => {
 
-            console.log("oncomplete called")
+            console.log("oncomplete command called")
 
             var options = {
                 
