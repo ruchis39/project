@@ -1,17 +1,11 @@
-pipeline{
+pipeline {
+    agent any
 
-stages{
-
-stage("Build"){
-
-steps{
-
-echo "This is build job ruchi!"
-
-
-}
-
-}
-
-}
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build now new pipeline'
+            }
+        }
+    }
 }
