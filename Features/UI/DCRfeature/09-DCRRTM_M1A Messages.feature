@@ -23,7 +23,7 @@ Feature: Sample
 
     @TC004 @Regression
 
-    Scenario: Addition 
+    Scenario: Addition of 2 no. in Super calculator
 
     Given user open the calculator site
 
