@@ -4,9 +4,9 @@ public class Account {
 
     private String type;
 
-    private double balance;
+    private float balance;
 
-    Account(int id, String type, double balance){
+    Account(int id, String type, float balance){
 
        setId(id);
 
@@ -35,7 +35,7 @@ public class Account {
         return this.type;
     }
 
-    public void setBalance(double balance){
+    public void setBalance(float balance){
 
         this.balance = balance;
     }
